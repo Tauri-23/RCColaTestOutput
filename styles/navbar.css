@@ -1,0 +1,19 @@
+.navbar1 {
+    width: 100%;
+    background: rgba(255, 255, 2555, .8);
+    padding: 30px 50px;
+    z-index: 20;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlinks {
+    display: flex;
+    gap: 20px;
+}
+.navlink {
+    color: var(--blue1);
+    font-size: var(--text-l3);
+}

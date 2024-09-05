@@ -1,0 +1,73 @@
+.background-vid {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 0;
+    object-fit: cover;
+    top: 0;
+}
+
+.s1 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+
+/* Section2 */
+.s2 {
+    width: 100%;
+    height: 200vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.s2-content-1-cont {
+    display: flex;
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: -20px;
+}
+.s2-content-1 {
+    transition: all .2s ease;
+    transform: rotateX(90deg);
+}
+.s2-content-1.start {
+    transform: rotateX(90deg);
+}
+.s2-content-1.start-mid {
+    transform: rotateX(63.75deg);
+}
+.s2-content-1.mid {
+    transform: rotateX(42.5deg);
+}
+.s2-content-1.mid-end {
+    transform: rotateX(21.25deg);
+}
+.s2-content-1.end {
+    transform: rotateX(0);
+}
+/* .s2-content-1-animation {
+    animation-name: s2Elements;
+    animation-duration: .5s;
+}
+.s2-content-1-animation.reverse {
+    animation-direction: reverse;
+} */
+
+
+
+
+
+/* Animations */
+@keyframes s2Elements {
+    0% {
+        transform: rotateX(85deg);
+    }
+    100% {
+        transform: rotateX(0);
+    }
+}
