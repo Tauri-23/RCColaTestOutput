@@ -69,12 +69,6 @@ $(document).ready(function() {
             rotateElement($('#s2-element-4'), 90);
         }
 
-
-        if(scrollTop > 1430 && scrollTop <= 1530) {
-            // $('#s2-element-4').removeClass('d-none');
-            // $('#s2-element-4').addClass('s2-content-1-animation');
-        }
-
         if(scrollTop < 400) {
             rotateElement($('#s2-element-1'), 90);
             rotateElement($('#s2-element-2'), 90);
